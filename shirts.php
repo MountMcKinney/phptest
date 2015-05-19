@@ -1,4 +1,4 @@
-<? include("inc/products.php"); ?><?php
+<?php include("inc/products.php"); ?><?php
 $pageTitle = "Mike's Full Catalog of Shirts";
 $section = "shirts";
 include('inc/header.php'); ?>
