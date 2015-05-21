@@ -88,6 +88,7 @@ function get_products_all() {
         "paypal" => "JMFK7P7VEHS44",
         "sizes" => array("Large","X-Large")
     );
+<<<<<<< HEAD
     $products[109] = array(
             "name" => "Get Coding Shirt, Gray",
             "img" => "img/shirts/shirt-109.jpg",    
@@ -256,6 +257,8 @@ function get_products_all() {
             "paypal" => "Y6EQRE445MYYW",
             "sizes" => array("Small","Medium","Large","X-Large")
     );     
+=======
+>>>>>>> origin/master
 
     foreach ($products as $product_id => $product) {
         $products[$product_id]["sku"] = $product_id;
